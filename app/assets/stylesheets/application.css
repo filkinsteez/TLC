@@ -1,0 +1,94 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+.above-nav {
+	font-family: Cambria, Georgia, serif;
+	text-align: center;
+	color: #0f53a5;
+	margin-top: 15px;
+}
+
+.navbar .nav {
+    margin: 0 auto;
+    float: none !important;
+    text-align: center;
+    display: inline-block !important;
+}
+
+.navbar-inner {
+	text-align: center !important;
+	padding-right: 0;
+	background-color: white !important;
+	background-color: none !important;
+	background-image: none !important;
+	background-image: none !important;
+	background-image: none !important;
+	background-image: none !important;
+	background-image: none !important;
+	border: 0 !important;
+	-webkit-border-radius: none !important;
+	-moz-border-radius: none !important;
+	border-radius: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.navbar-inner a {
+	color: #0f53a5 !important;
+	text-align: center;
+}
+
+.navbar-inner ul {
+	text-align: center;
+}
+
+nav ul ul {
+	background: white; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		text-align: center;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul {
+				display: none;
+			}
+
+nav ul li {
+	float: left;
+	list-style-type: none;
+}
+
+	nav ul li:hover a {
+		color: #fff;
+	}
+		nav ul li:hover > ul {
+			display: block;
+		}
+	
+nav ul li a {
+	display: block; padding: 25px 40px;
+	color: #757575; text-decoration: none;
+}
+
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
