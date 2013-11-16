@@ -232,6 +232,11 @@ module ApplicationHelper
 		end	
 
 		case image_to_use
+		  when "static_pages_preventivedentistry"
+		    return "preventivedentistry_banner.jpg"
+		end			
+
+		case image_to_use
 		  when "static_pages_dentalnexus"
 		    return "nexus_banner.jpg"
 		end				
