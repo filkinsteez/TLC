@@ -7,12 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="container">
 	<div class="above-nav">
 		<div class="row-fluid">
-			<div class="span4">
+			<div class="span3">
 				<%= image_tag 'TLC_logo.jpg' %>
 			</div>
-			<div class="span4">
+			<div class="span5">
 				<h1>Rothenberg DDS/<br>TLC Dental Group</h1><h2>The Art of Gentle Dentistry</h2>
 			</div>
 			<div class="span4">
@@ -48,7 +49,6 @@
 				<li><%= link_to "Green Dentistry", office_greendentistry_path %></li> 
               </ul>
             <li><%= link_to "Gentle Dentistry", gentledentistry_path %></li>	
-		<ul class="nav nav-pills">
 		    <li class="dropdown">
 		      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Treatments <b class="caret"></b></a>
 		      <ul class="dropdown-menu" id="menu1">
@@ -94,21 +94,34 @@
 		            <li><%= link_to "Tooth Cavity", commondentalproblems_toothcavity_path %></li>
 		            <li><%= link_to "Tooth Extraction", commondentalproblems_toothextraction_path %></li>
 		            <li><%= link_to "Tooth Sensitivity", commondentalproblems_toothsensitivity_path %></li>
-		            <li><%= link_to "Wisdom Teeth", commondentalproblems_wisdomteeth_path %></li>		            
+		            <li><%= link_to "Wisdom Teeth", commondentalproblems_wisdomteeth_path %></li>         
 		          </ul>
-		        <li><%= link_to "Preventive Dentistry", preventivedentistry_path %></li>
+		        </li>
+		        <li class="dropdown-submenu">
+		          <%= link_to "Preventive Dentistry", preventivedentistry_path %>
+		          <ul class="dropdown-menu">
+		            <li><%= link_to "Oral Cancer Screening", preventivedentistry_oralcancerscreening_path %></li>
+		            <li><%= link_to "Professional Dental Cleaning", preventivedentistry_preventivedentalcleaning_path %></li>
+		            <li><%= link_to "Sealants", preventivedentistry_sealants_path %></li>
+		            <li><%= link_to "TLC Athletic Mouthguards", preventivedentistry_athleticmouthguards_path %></li>
+		            <li><%= link_to "TLC Dream Smile Diet", preventivedentistry_dreamsmilediet_path %></li>
+		            <li><%= link_to "TLC Flouride Treatments", preventivedentistry_flouridetreatment_path %></li>
+		            <li><%= link_to "TLC Oral Hygiene", preventivedentistry_oralhygiene_path %></li>	
+		            <li><%= link_to "TLC Rotadent Toothbrush", preventivedentistry_rotadent_path %></li>
+		            <li><%= link_to "TLC Soft Tissue Managment", preventivedentistry_softtissue_path %></li>
+		            <li><%= link_to "TLC Tobacco Cessation Program", preventivedentistry_tabaccocessationprogram_path %></li>      
+		          </ul>	
+		        </li>     
 		        <li><%= link_to "Nexus of Dental & General Health", treatments_dentalnexus_path %></li>
 		      </ul>
 		    </li>
 		    <li><%= link_to "Testimonials", testimonials_path %></li>
             <li><%= link_to "New Patients", newpatients_path %></li>
             <li><%= link_to "Contact Us", contact_path %></li>
-		</ul>
 		</div>
 	</div>
 </div>
 </div>
-	<div class="container">
 		<%= yield %>
 	</div>
 </body>

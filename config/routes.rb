@@ -59,6 +59,17 @@ TLC::Application.routes.draw do
   get "commondentalproblems/chippedcrown", to: 'static_pages#chippedcrown'
 
   get "preventivedentistry", to: 'static_pages#preventivedentistry'
+  get "preventivedentistry/oralcancerscreening", to: 'static_pages#oralcancerscreening'
+  get "preventivedentistry/preventivedentalcleaning", to: 'static_pages#preventivedentalcleaning'
+  get "preventivedentistry/sealants", to: 'static_pages#sealants'
+  get "preventivedentistry/athleticmouthguards", to: 'static_pages#athleticmouthguards'
+  get "preventivedentistry/dreamsmilediet", to: 'static_pages#dreamsmilediet'
+  get "preventivedentistry/flouridetreatment", to: 'static_pages#flouridetreatment'
+  get "preventivedentistry/oralhygiene", to: 'static_pages#oralhygiene'
+  get "preventivedentistry/rotadent", to: 'static_pages#rotadent'
+  get "preventivedentistry/softtissue", to: 'static_pages#softtissue'
+  get "preventivedentistry/tabaccocessationprogram", to: 'static_pages#tabaccocessationprogram'
+
   get "treatments/dentalnexus", to: 'static_pages#dentalnexus'
 
   get "testimonials", to: 'static_pages#testimonials'

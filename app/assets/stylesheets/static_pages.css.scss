@@ -1,13 +1,88 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#welcome-text {
+body {
+  background-color: #ececec;
+}
+
+h1 {
+  font-size: 37px;
+}
+
+h2 {
+  font-size: 31px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+td {
+  padding: 10px 50px 0 10px;
+}
+
+.container {
+  // width: 980px;
+  -webkit-box-shadow:  1px 1px 15px 10px rgba(0, 0, 0, .1);      
+  box-shadow:  1px 1px 15px 10px rgba(0, 0, 0, .1);
+  padding: 20px;
+  background-color: white;
+  width: 980px;
+}
+
+.dropdown-submenu li > a {
+  text-align: left;
+}
+
+.dropdown-menu {
+  width: auto;
+}
+
+.dropdown-submenu li{
+  width: auto;
+  border-left: none !important;
+}
+
+.dropdown li{
+  width: auto;
+  border-left: none !important;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.nav li {
+  border-left: 1px solid #2a66af;
+  height: 30px;
+}
+
+.nav li:first-child {
+  border-left: transparent;
+}
+
+.nav li > a {
+  margin-top: -5px;
+}
+
+.welcome-text {
   text-align: center;
   color: #0f53a5;
   font-family: Cambria, Georgia, serif;
     p {
   	  line-height: 2em;
   	  font-size: 1.2em;
+    }
+}
+
+#left-welcome {
+  text-align: left;
+  color: #0f53a5;
+  font-family: Cambria, Georgia, serif;
+    p {
+      line-height: 2em;
+      font-size: 1.2em;
     }
 }
 
@@ -35,6 +110,7 @@
 	margin-top: 35px;
 	margin-bottom: 35px;
   position: relative;
+  display: inline-block;
     img {
       display: inline-block;
       vertical-align: middle;
@@ -43,6 +119,13 @@
     h3 {
       display: inline-block;
     }
+    h4 {
+      text-align: center;
+    }    
+}
+
+.nostyle {
+  list-style-type: none;
 }
 
 .green-content-container {

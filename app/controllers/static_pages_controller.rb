@@ -17,6 +17,9 @@ class StaticPagesController < ApplicationController
   def treatments
   end
 
+  def preventivedentistry
+  end
+
   def dreamsmiles
   end  
   def bonding

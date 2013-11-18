@@ -234,7 +234,57 @@ module ApplicationHelper
 		case image_to_use
 		  when "static_pages_preventivedentistry"
 		    return "preventivedentistry_banner.jpg"
-		end			
+		end	
+
+		case image_to_use
+		  when "static_pages_oralcancerscreening"
+		    return "preventivedentistry_banner.jpg"
+		end		
+
+		case image_to_use
+		  when "static_pages_preventivedentalcleaning"
+		    return "preventivedentistry_banner.jpg"
+		end		
+
+		case image_to_use
+		  when "static_pages_sealants"
+		    return "preventivedentistry_banner.jpg"
+		end	
+
+		case image_to_use
+		  when "static_pages_athleticmouthguards"
+		    return "preventivedentistry_banner.jpg"
+		end
+
+		case image_to_use
+		  when "static_pages_dreamsmilediet"
+		    return "preventivedentistry_banner.jpg"
+		end
+
+		case image_to_use
+		  when "static_pages_flouridetreatment"
+		    return "preventivedentistry_banner.jpg"
+		end
+
+		case image_to_use
+		  when "static_pages_oralhygiene"
+		    return "preventivedentistry_banner.jpg"
+		end	
+
+		case image_to_use
+		  when "static_pages_rotadent"
+		    return "preventivedentistry_banner.jpg"
+		end
+
+		case image_to_use
+		  when "static_pages_softtissue"
+		    return "preventivedentistry_banner.jpg"
+		end	
+
+		case image_to_use
+		  when "static_pages_tabaccocessationprogram"
+		    return "preventivedentistry_banner.jpg"
+		end																					
 
 		case image_to_use
 		  when "static_pages_dentalnexus"
