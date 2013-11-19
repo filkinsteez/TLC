@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TLC</title>
+  <title>TLC Dental Group</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -13,8 +13,8 @@
 			<div class="span3">
 				<%= image_tag 'TLC_logo.jpg' %>
 			</div>
-			<div class="span6">
-				<h1>Rothenberg DDS/<br>TLC Dental Group</h1><h2>The Art of Gentle Dentistry</h2>
+			<div class="span6" style="margin-top: -15px;">
+				<b><i><h1>Rothenberg DDS/<br>TLC Dental Group</h1><h2>The Art of Gentle Dentistry</h2></b></i>
 			</div>
 			<div class="span3">
 				<h4>315-637-7684<br>7197 Highbridge<br>Fayetteville, NY<br>Directions<br>Email Us</h4>
@@ -41,7 +41,6 @@
             <li class="dropdown">
               <a data-toggle="dropdown" class="dropdown-toggle" href="#">Office <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
                 <li><%= link_to "Toothbrush Mailbox", office_toothbrushmailbox_path %></li>
                 <li><%= link_to "Amenities", office_amenities_path %></li>
                 <li><%= link_to "Courtyard & Greeting Room", office_courtyard_path %></li>

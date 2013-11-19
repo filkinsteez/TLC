@@ -122,7 +122,7 @@ module ApplicationHelper
 		end
 
 		case image_to_use
-		  when "static_pages_brokendenture"
+		  when "static_pages_brokendentures"
 		    return "commondentalproblems_banner.jpg"
 		end
 
@@ -167,7 +167,7 @@ module ApplicationHelper
 		end	
 
 		case image_to_use
-		  when "static_pages_headaches"
+		  when "static_pages_headache"
 		    return "commondentalproblems_banner.jpg"
 		end		
 
@@ -202,7 +202,7 @@ module ApplicationHelper
 		end
 
 		case image_to_use
-		  when "static_pages_tmd"
+		  when "static_pages_TMD"
 		    return "commondentalproblems_banner.jpg"
 		end
 

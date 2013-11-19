@@ -13,6 +13,10 @@ h2 {
   font-size: 31px;
 }
 
+h5 {
+  font-size: 20px;
+}
+
 p {
   font-size: 16px;
   line-height: 22px;
@@ -51,6 +55,7 @@ td {
 
 .navbar {
   margin-top: 20px;
+  font-weight: 500;
 }
 
 .nav li {
@@ -90,8 +95,10 @@ td {
   color: #2a66af;
   font-family: Cambria, Georgia, serif;
   font-size: 2.3em;
-  text-decoration: underline;
   text-align: center;
+  font-style: italic;
+  display: block;
+  margin-top: 20px;
 }
 
 .green-pagetitle {
@@ -111,6 +118,7 @@ td {
 	margin-bottom: 35px;
   position: relative;
   display: inline-block;
+  text-align: justify;
     img {
       display: inline-block;
       vertical-align: middle;
@@ -156,6 +164,7 @@ td {
   margin-bottom: 35px;
   position: relative;
   overflow: hidden;
+  text-align: justify;
     img.center {
       display: block;
       margin-left: auto;
@@ -168,6 +177,11 @@ td {
     h4 {
       text-align: center;
     }
+}
+
+.mailboxphoto {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .float-right {
