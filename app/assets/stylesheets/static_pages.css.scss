@@ -17,6 +17,10 @@ h5 {
   font-size: 20px;
 }
 
+h6 {
+  font-size: 16px;
+}
+
 p {
   font-size: 16px;
   line-height: 22px;
@@ -78,8 +82,10 @@ td {
   position:relative;
   bottom: 10px;
     h6 {
+      font-size: 12px;
       margin-bottom: -5px;
       color: #0f53a5;
+      line-height: 15px;
     }
     img {
       margin-top: 9px;
@@ -153,7 +159,7 @@ td {
     }
     h4 {
       text-align: center;
-    }    
+    }   
 }
 
 .content-container-first {
@@ -207,8 +213,9 @@ td {
   border: 1px solid #2a66af;
   border-radius: 13px;
   padding: 50px;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  padding-top: 25px;
+  margin-top: 55px;
+  margin-bottom: -5px;
   position: relative;
   overflow: hidden;
   text-align: justify;
@@ -220,9 +227,19 @@ td {
 
     h3 {
       text-align: center;
+      margin-bottom: 25px;
     }
     h4 {
       text-align: center;
+    }
+
+    li {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    h6 {
+      margin-bottom: 1px;
     }
 }
 
