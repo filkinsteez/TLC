@@ -261,14 +261,16 @@ td {
 
 .imagecolumn {
   width: 200px;
+  text-align: justify;
+}
+
+.leftcolumn {
+  width: 145px;
 }
 
 .rightcolumn {
   width: 250px;
-}
-
-.leftcolumn {
-  width: 170px;
+  text-align: justify;
 }
 
 .centered {
