@@ -144,8 +144,8 @@ td {
 	border: 1px solid #2a66af;
 	border-radius: 13px;
 	padding: 50px;
-	margin-top: 35px;
-	margin-bottom: 35px;
+  margin-top: 55px;
+  margin-bottom: -5px;
   position: relative;
   display: inline-block;
   text-align: justify;
@@ -157,9 +157,19 @@ td {
     h3 {
       display: inline-block;
     }
+
     h4 {
       text-align: center;
     }   
+
+    li { 
+      font-size: 16px;
+      line-height: 22px;
+    } 
+
+    a {
+      color: #2a66af;
+    }
 }
 
 .content-container-first {
@@ -182,7 +192,12 @@ td {
     }
     h4 {
       text-align: center;
-    }    
+    }   
+
+    li { 
+      font-size: 16px;
+      line-height: 22px;
+    } 
 }
 
 .nostyle {
@@ -240,6 +255,10 @@ td {
 
     h6 {
       margin-bottom: 1px;
+    }
+
+    a {
+      color: #2a66af;
     }
 }
 
