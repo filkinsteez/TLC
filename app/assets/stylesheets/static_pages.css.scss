@@ -109,6 +109,7 @@ td {
     p {
       line-height: 2em;
       font-size: 1.2em;
+      margin-left: 34%;
     }
 }
 
@@ -129,8 +130,13 @@ td {
   color: #008000;
   font-family: Cambria, Georgia, serif;
   font-size: 2.3em;
-  text-decoration: underline;
   text-align: center;
+  font-style: italic;
+  display: block;
+  margin-top: 20px;
+  display: block;
+  position: relative;
+  text-decoration: underline !important;
 }
 
 .subheader {
@@ -213,9 +219,11 @@ td {
   border: 1px solid #008000;
   border-radius: 13px;
   padding: 50px;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 55px;
+  margin-bottom: -5px;
   position: relative;
+  display: inline-block;
+  text-align: justify;
     img {
       display: inline-block;
       vertical-align: middle;
@@ -225,6 +233,20 @@ td {
       display: inline-block;
       color: #008000;
     }
+
+    h4 {
+      text-align: center;
+    }
+
+    h6 {
+      margin-bottom: 1px;
+    }
+
+    li { 
+      font-size: 16px;
+      line-height: 22px;
+    } 
+
 }
 
 .contact-container {
@@ -337,4 +359,61 @@ table.gadget {
     h5 {
       color: #0f53a5;
     }
+}
+
+
+@media (max-width: 1199px) {
+  #left-welcome {
+    p {
+      margin-left: 31%;
+    }
+  }
+}
+
+@media (max-width: 979px) {
+  #left-welcome {
+    p {
+      margin-left: 24%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #left-welcome {
+    p {
+      margin-left: 22%;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #left-welcome {
+    p {
+      margin-left: 19%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #left-welcome {
+    p {
+      margin-left: 16%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #left-welcome {
+    p {
+      margin-left: 13%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #left-welcome {
+    p {
+      margin-left: 9%;
+    }
+  }
 }
