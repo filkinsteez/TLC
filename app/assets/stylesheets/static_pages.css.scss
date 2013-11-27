@@ -42,10 +42,16 @@ td {
 .dropdown-submenu li > a {
   text-align: left;
   position: relative;
+  height: 25px;
 }
 
 .dropdown-menu {
   width: auto;
+}
+
+.dropdown-menu li > a {
+  width: auto;
+  height: 30px;
 }
 
 .dropdown-submenu li{
@@ -67,7 +73,6 @@ td {
 
 .nav li {
   border-left: 1px solid #2a66af;
-  height: 30px;
   position: relative;
 }
 
@@ -209,6 +214,7 @@ td {
 
     h3 {
       display: inline-block;
+      text-align: left;
     }
     h4 {
       text-align: center;
@@ -391,6 +397,14 @@ table.gadget {
     p {
       margin-left: 24%;
     }
+  }
+
+  .nav li {
+    border-left: none;
+  }
+
+  .dropdown-menu li{
+    visibility: hidden;
   }
 }
 
