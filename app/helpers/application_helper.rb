@@ -282,7 +282,7 @@ module ApplicationHelper
 		end	
 
 		case image_to_use
-		  when "static_pages_tabaccocessationprogram"
+		  when "static_pages_tobaccocessationprogram"
 		    return "preventivedentistry_banner.jpg"
 		end																					
 

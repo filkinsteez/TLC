@@ -68,7 +68,7 @@ TLC::Application.routes.draw do
   get "preventivedentistry/oralhygiene", to: 'static_pages#oralhygiene'
   get "preventivedentistry/rotadent", to: 'static_pages#rotadent'
   get "preventivedentistry/softtissue", to: 'static_pages#softtissue'
-  get "preventivedentistry/tabaccocessationprogram", to: 'static_pages#tabaccocessationprogram'
+  get "preventivedentistry/tobaccocessationprogram", to: 'static_pages#tobaccocessationprogram'
 
   get "treatments/dentalnexus", to: 'static_pages#dentalnexus'
 
