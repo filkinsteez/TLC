@@ -272,10 +272,14 @@
 	<div class="span10 offset1">
 		<div class="content-container" style="display:block;">
 			<h3>The TLC Tooth Fairy</h3>
-			<table>
+			<div class="row-fluid" style="position:absolute; z-index:1;">
+				<div class="span4">
+					<%= image_tag 'toothfairy.jpg' %>
+				</div>
+			</div>
+			<table style="position:relative; z-index:99;">
 				<tr>	
-					<td rowspan="14" class="imagecolumn">
-						<%= image_tag 'toothfairy.jpg' %>
+					<td rowspan="14" class="toothfairycolumn">
 					</td>
 					<td class="leftcolumn">Birthplace:</td>
 					<td class="rightcolumn">Fairyland</td>
