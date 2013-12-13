@@ -58,5 +58,19 @@ module TLC
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    config.action_mailer.smtp_settings = {
+      :address              => "smtpout.secureserver.net",
+      :port                 => 465,
+      :domain               => "tlcdentalsyr.com",
+      :user_name            => "smile@tlcdentalsyr.com",
+      :password             => "4MightyMolar",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+    }
+
+    config.action_mailer.default_url_options = {
+      :host => "tlcdentalsyr.com"
+    }    
   end
 end

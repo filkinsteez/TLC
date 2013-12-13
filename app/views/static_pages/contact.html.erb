@@ -78,48 +78,39 @@
 				To make an appointment for a dental problem or a "Dream Smile" treatment please phone the TLC Dental Group at (315) 637-7684 or simply complete the email form below and click on the "Send" button.  We will then call to thank you and confirm your appointment.<br><br>
 
 				This form is programmed solely for making appointments. If you have a dental emergency or wish to change or cancel an appointment please phone our office at (315) 637-7684. 
-			</p>				
-			<input type="text" placeholder="Name"><br>
-			<label class="checkbox">
-    		  Current patient? <input type="checkbox"> 
-   			</label>
-			<input type="text" placeholder="Email Address"><br>
-			<input type="text" placeholder="Phone #"><br>
-			<strong>Best time to call?</strong><br>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="morning" value="option1"> Morning
-			</label>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="noon" value="option2"> Noon
-			</label>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="afternoon" value="option3"> Afternoon
-			</label>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="evening" value="option3"> Evening
-			</label><br><br>
-			<input type="text" placeholder="Date of Desired Appointment"><br><br>
-			<strong>Preferred Time?</strong><br>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="morningtime" value="option1"> Morning
-			</label>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="afternoontime" value="option2"> Afternoon
-			</label>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="anytime" value="option3"> Anytime
-			</label><br><br>
-			<strong>Which of the following treatment categories of our website is central to your appointment?</strong><br>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="dreamsmiles" value="option1"> Dream Smile Solutions
-			</label>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="commondentalproblems" value="option2"> Common Dental Problem
-			</label>
-			<label class="checkbox inline">
-			  <input type="checkbox" id="preventivedentistry" value="option3"> Preventive Dentistry
-			</label><br><br>
-			<button class="btn btn-primary" type="button">Submit</button>
+			</p>
+			<%= form_for :message, :url => contact_path do |form| %>					
+				<%= form.text_field 'name', :placeholder => 'Name' %><br>
+	    		<%= form.label(:currentpatient, "Current Patient?") %>
+	    		<%= form.check_box (:currentpatient) %> <br><br>
+	   			<%= form.text_field 'email', :placeholder => 'Email Address' %><br>
+	   			<%= form.text_field 'phone', :placeholder => 'Phone #' %><br>
+				<strong>Best time to call?</strong><br>
+				<%= form.radio_button(:calltime, "morning") %>
+				<%= form.label(:calltime, "Morning") %>
+				<%= form.radio_button(:calltime, "noon") %>
+				<%= form.label(:calltime, "Noon") %>	
+				<%= form.radio_button(:calltime, "afternoon") %>
+				<%= form.label(:calltime, "Afternoon") %>	
+				<%= form.radio_button(:calltime, "evening") %>
+				<%= form.label(:calltime, "Evening") %><br>
+				<%= form.text_field 'date', :placeholder => 'Date of desired appointment?' %><br>
+				<strong>Preferred Time?</strong><br>
+				<%= form.radio_button(:apttime, "morning") %>
+				<%= form.label(:apttime, "Morning") %>	
+				<%= form.radio_button(:apttime, "afternoon") %>
+				<%= form.label(:apttime, "Afternoon") %>
+				<%= form.radio_button(:apttime, "anytime") %>
+				<%= form.label(:apttime, "Anytime") %><br>
+				<strong>Which of the following treatment categories of our website is central to your appointment?</strong><br>
+				<%= form.radio_button(:treatment, "dreamsmiles") %>
+				<%= form.label(:treatment, "Dream Smile Solutions") %>	
+				<%= form.radio_button(:treatment, "commondentalproblems") %>
+				<%= form.label(:treatment, "Common Dental Problems") %>
+				<%= form.radio_button(:treatment, "preventivedentistry") %>
+				<%= form.label(:treatment, "Preventive Dentistry") %><br>			
+				<%= form.submit "Submit" %>
+			<% end %>
 		</div>
 	</div>
 </div>
@@ -128,7 +119,6 @@
 	<div class="span10 offset1">
 		<div class="content-container">
 			<%= link_to(image_tag("TLC_logo.jpg", :class => "float-right"), office_toothbrushmailbox_path) %>
-	
 			<h3>Office Address</h3>			
 				<p>
 					<b>7197 Highbridge Road, Fayetteville, NY 13066</b>
