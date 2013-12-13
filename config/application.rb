@@ -61,7 +61,7 @@ module TLC
     
     config.action_mailer.smtp_settings = {
       :address              => "smtpout.secureserver.net",
-      :port                 => 465,
+      :port                 => 80,
       :domain               => "tlcdentalsyr.com",
       :user_name            => "smile@tlcdentalsyr.com",
       :password             => "4MightyMolar",
