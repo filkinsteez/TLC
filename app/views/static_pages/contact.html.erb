@@ -80,34 +80,34 @@
 				This form is programmed solely for making appointments. If you have a dental emergency or wish to change or cancel an appointment please phone our office at (315) 637-7684. 
 			</p>
 			<%= form_for :message, :url => contact_path do |form| %>					
-				<%= form.text_field 'name', :placeholder => 'Name' %><br>
+				<%= form.text_field :name, :placeholder => 'Name' %><br>
 	    		<%= form.label(:currentpatient, "Current Patient?") %>
-	    		<%= form.check_box (:currentpatient) %> <br><br>
+	    		<%= form.radio_button(:currentpatient, "Yes") %> <br><br>
 	   			<%= form.text_field 'email', :placeholder => 'Email Address' %><br>
 	   			<%= form.text_field 'phone', :placeholder => 'Phone #' %><br>
 				<strong>Best time to call?</strong><br>
-				<%= form.radio_button(:calltime, "morning") %>
+				<%= form.radio_button(:calltime, "Morning") %>
 				<%= form.label(:calltime, "Morning") %>
-				<%= form.radio_button(:calltime, "noon") %>
+				<%= form.radio_button(:calltime, "Noon") %>
 				<%= form.label(:calltime, "Noon") %>	
-				<%= form.radio_button(:calltime, "afternoon") %>
+				<%= form.radio_button(:calltime, "Afternoon") %>
 				<%= form.label(:calltime, "Afternoon") %>	
-				<%= form.radio_button(:calltime, "evening") %>
+				<%= form.radio_button(:calltime, "Evening") %>
 				<%= form.label(:calltime, "Evening") %><br>
 				<%= form.text_field 'date', :placeholder => 'Date of desired appointment?' %><br>
 				<strong>Preferred Time?</strong><br>
-				<%= form.radio_button(:apttime, "morning") %>
+				<%= form.radio_button(:apttime, "Morning") %>
 				<%= form.label(:apttime, "Morning") %>	
-				<%= form.radio_button(:apttime, "afternoon") %>
+				<%= form.radio_button(:apttime, "Afternoon") %>
 				<%= form.label(:apttime, "Afternoon") %>
-				<%= form.radio_button(:apttime, "anytime") %>
+				<%= form.radio_button(:apttime, "Anytime") %>
 				<%= form.label(:apttime, "Anytime") %><br>
 				<strong>Which of the following treatment categories of our website is central to your appointment?</strong><br>
-				<%= form.radio_button(:treatment, "dreamsmiles") %>
+				<%= form.radio_button(:treatment, "Dream Smiles") %>
 				<%= form.label(:treatment, "Dream Smile Solutions") %>	
-				<%= form.radio_button(:treatment, "commondentalproblems") %>
+				<%= form.radio_button(:treatment, "Common Dental Problems") %>
 				<%= form.label(:treatment, "Common Dental Problems") %>
-				<%= form.radio_button(:treatment, "preventivedentistry") %>
+				<%= form.radio_button(:treatment, "Preventive Dentistry") %>
 				<%= form.label(:treatment, "Preventive Dentistry") %><br>			
 				<%= form.submit "Submit" %>
 			<% end %>

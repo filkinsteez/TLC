@@ -77,6 +77,7 @@ TLC::Application.routes.draw do
   get "newpatients", to: 'static_pages#newpatients'
 
   get "contact", to: 'static_pages#contact'
+  get "contact/new", to: 'static_pages#new'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
