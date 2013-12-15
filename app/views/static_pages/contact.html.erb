@@ -82,7 +82,7 @@
 			<%= form_for :message, :url => contact_path do |form| %>					
 				<%= form.text_field :name, :placeholder => 'Name' %><br>
 	    		<%= form.label(:currentpatient, "Current Patient?") %>
-	    		<%= form.radio_button(:currentpatient, "Yes") %> <br><br>
+	    		<%= form.radio_button(:currentpatient, "Yes") %> <br>
 	   			<%= form.text_field 'email', :placeholder => 'Email Address' %><br>
 	   			<%= form.text_field 'phone', :placeholder => 'Phone #' %><br>
 				<strong>Best time to call?</strong><br>
