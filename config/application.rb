@@ -70,7 +70,7 @@ module TLC
     }
 
     config.action_mailer.default_url_options = {
-      :host => "tlcdentalsyr.com"
+      :host => "www.tlcdentalsyr.com"
     }    
   end
 end
