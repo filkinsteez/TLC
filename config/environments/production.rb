@@ -63,11 +63,13 @@ TLC::Application.configure do
 
   config.action_mailer.smtp_settings = {
     :address              => "smtpout.secureserver.net",
-    :port                 => 3535,
-    :domain               => "www.tlcdentalsyr.com",
+    :port                 => 587,
+    :domain               => "tlcdentalsyr.com",
     :user_name            => "smile@tlcdentalsyr.com",
     :password             => "4MightyMolar",
     :authentication       => :plain,
+    :enable_starttls_auto => true,
+    :openssl_verify_mode => 'none' 
   }
 
   config.action_mailer.default_url_options = {
