@@ -63,7 +63,7 @@ TLC::Application.configure do
 
   config.action_mailer.smtp_settings = {
     :address              => "relay-hosting.secureserver.net",
-    :port                 => 80,
+    :port                 => 25,
     :domain               => "tlcdentalsyr.com",
     :user_name            => "smile@tlcdentalsyr.com",
     :password             => "4MightyMolar",
