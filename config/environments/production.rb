@@ -62,13 +62,12 @@ TLC::Application.configure do
   config.active_support.deprecation = :notify
 
   config.action_mailer.smtp_settings = {
-    :address              => "relay-hosting.secureserver.net",
-    :port                 => 25,
-    :domain               => "tlcdentalsyr.com",
+    :address              => "smtpout.secureserver.net",
+    :port                 => 3535,
+    :domain               => "www.tlcdentalsyr.com",
     :user_name            => "smile@tlcdentalsyr.com",
     :password             => "4MightyMolar",
     :authentication       => :plain,
-    :enable_starttls_auto => true
   }
 
   config.action_mailer.default_url_options = {
