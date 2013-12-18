@@ -62,7 +62,7 @@ TLC::Application.configure do
   config.active_support.deprecation = :notify
 
   config.action_mailer.smtp_settings = {
-    :address              => "smtpout.secureserver.net",
+    :address              => "relay-hosting.secureserver.net",
     :port                 => 80,
     :domain               => "tlcdentalsyr.com",
     :user_name            => "smile@tlcdentalsyr.com",
@@ -72,7 +72,7 @@ TLC::Application.configure do
   }
 
   config.action_mailer.default_url_options = {
-    :host => "http://www.tlcdentalsyr.com"
+    :host => "www.tlcdentalsyr.com"
   }      
 
   # Log the query plan for queries taking more than this (works
