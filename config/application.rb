@@ -65,7 +65,6 @@ module TLC
       :domain               => "tlcdentalsyr.com",
       :user_name            => "smile@tlcdentalsyr.com",
       :password             => "4MightyMolar",
-      :authentication       => :plain,
       :enable_starttls_auto => true
     }
 
