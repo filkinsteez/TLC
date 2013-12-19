@@ -299,11 +299,6 @@ module ApplicationHelper
 		case image_to_use
 		  when "static_pages_gentledentistry"
 		    return "gentledentistry_banner.jpg"
-		end	
-
-		case image_to_use
-		  when "static_pages_sendgrid"
-		    return "gentledentistry_banner.jpg"
 		end												
 	end
 end
