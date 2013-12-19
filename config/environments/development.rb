@@ -32,6 +32,20 @@ TLC::Application.configure do
   # Do not compress assets
   config.assets.compress = false
 
+    config.action_mailer.smtp_settings = {
+      :address              => "smtpout.secureserver.net",
+      :port                 => 80,
+      :domain               => "tlcdentalsyr.com",
+      :user_name            => "smile@tlcdentalsyr.com",
+      :password             => "4MightyMolar",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+    }
+
+    config.action_mailer.default_url_options = {
+      :host => "tlcdentalsyr.com"
+    }    
+
   # Expands the lines which load the assets
   config.assets.debug = true
 end

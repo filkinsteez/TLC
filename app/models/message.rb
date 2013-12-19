@@ -6,7 +6,7 @@ class Message
 
   attr_accessor :name, :currentpatient, :email, :phone, :calltime, :date, :apttime, :treatment, :subject
 
-  validates :name, :currentpatient, :phone, :calltime, :date, :apttime, :treatment, :subject, :presence => true
+  validates :name, :currentpatient, :phone, :calltime, :date, :apttime, :treatment, :presence => true
   validates_format_of :email, :with => /.+@.+\..+/i
   
   def initialize(attributes = {})
