@@ -59,22 +59,7 @@ TLC::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :notify
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :address              => "smtpout.secureserver.net",
-    :port                 => 80,
-    :domain               => "tlcdentalsyr.com",
-    :user_name            => "smile@tlcdentalsyr.com",
-    :password             => "4MightyMolar",
-    :authentication       => :plain,
-    :enable_starttls_auto => true,
-    :openssl_verify_mode => 'none' 
-  }
-
-  config.action_mailer.default_url_options = {
-    :host => "www.tlcdentalsyr.com"
-  }      
+  config.active_support.deprecation = :notify    
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
