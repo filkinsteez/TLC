@@ -79,7 +79,7 @@
 
 				This form is programmed solely for making appointments. If you have a dental emergency or wish to change or cancel an appointment please phone our office at (315) 637-7684. 
 			</p>
-			<%= form_for :message, :url => contact_path do |form| %>	 				
+			<%= form_for :message, :url => contact_path do |form| %> 
 				<%= form.text_field :name, :placeholder => 'Name' %><br>
 	    		<%= form.label(:currentpatient, "Current Patient?") %>
 	    		<%= form.radio_button(:currentpatient, "Yes") %> <br>
