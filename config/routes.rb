@@ -1,4 +1,4 @@
-TLC::Application.routes.draw do
+TLC::Application.routes.draw do 
   # map.root :controller => "static_pages"
   
   get "about", to: 'static_pages#about'
