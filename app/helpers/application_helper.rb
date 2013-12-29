@@ -23,7 +23,7 @@ module ApplicationHelper
 
 		case image_to_use
 		  when "static_pages_amenities"
-		    return "amenities_banner.jpg"
+		    return "home_banner.jpg"
 		end	
 
 		case image_to_use
