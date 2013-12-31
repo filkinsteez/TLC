@@ -81,11 +81,14 @@
 			</p>
 			<%= form_for :message, :url => contact_path do |form| %> 
 				<%= form.text_field :name, :placeholder => 'Name' %><br>
-	    		<%= form.label(:currentpatient, "Current Patient?") %>
-	    		<%= form.radio_button(:currentpatient, "Yes") %> <br>
 	   			<%= form.text_field 'email', :placeholder => 'Email Address' %><br>
-	   			<%= form.text_field 'phone', :placeholder => 'Phone #' %><br>
-				<strong>Best time to call?</strong><br>
+	   			<%= form.text_field 'phone', :placeholder => 'Phone #' %><br><hr>
+	    		<%= form.radio_button(:currentpatient, "Yes") %>	    		
+	    		<%= form.label(:currentpatient, "New Patient?") %>
+				<%= form.radio_button(:currentpatient, "Yes") %>	    		
+	    		<%= form.label(:currentpatient, "Current Patient?") %>
+	    		<br><hr>	   			
+				<strong>Best time to call you?</strong><br>
 				<%= form.radio_button(:calltime, "Morning") %>
 				<%= form.label(:calltime, "Morning") %>
 				<%= form.radio_button(:calltime, "Noon") %>
@@ -93,23 +96,24 @@
 				<%= form.radio_button(:calltime, "Afternoon") %>
 				<%= form.label(:calltime, "Afternoon") %>	
 				<%= form.radio_button(:calltime, "Evening") %>
-				<%= form.label(:calltime, "Evening") %><br>
-				<%= form.text_field 'date', :placeholder => 'Date of desired appointment?' %><br>
+				<%= form.label(:calltime, "Evening") %><br><hr>
+				<strong>Date of desired appointment?</strong><br>
+				<%= form.text_field 'date', :placeholder => 'Date of desired appointment?' %><br><hr>
 				<strong>Preferred Time?</strong><br>
 				<%= form.radio_button(:apttime, "Morning") %>
 				<%= form.label(:apttime, "Morning") %>	
 				<%= form.radio_button(:apttime, "Afternoon") %>
 				<%= form.label(:apttime, "Afternoon") %>
 				<%= form.radio_button(:apttime, "Anytime") %>
-				<%= form.label(:apttime, "Anytime") %><br>
+				<%= form.label(:apttime, "Anytime") %><br><hr>
 				<strong>Which of the following treatment categories of our website is central to your appointment?</strong><br>
 				<%= form.radio_button(:treatment, "Dream Smiles") %>
 				<%= form.label(:treatment, "Dream Smile Solutions") %>	
 				<%= form.radio_button(:treatment, "Common Dental Problems") %>
 				<%= form.label(:treatment, "Common Dental Problems") %>
 				<%= form.radio_button(:treatment, "Preventive Dentistry") %>
-				<%= form.label(:treatment, "Preventive Dentistry") %><br>			
-				<%= form.submit "Submit" %>
+				<%= form.label(:treatment, "Preventive Dentistry") %><br><br>		
+				<%= form.submit "Submit", :class => "btn-primary btn-med" %>
 			<% end %>
 		</div>
 	</div>

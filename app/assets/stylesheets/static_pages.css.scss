@@ -33,12 +33,15 @@ td {
 
 label {
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 5px;
+  margin-right: 40px;
+  position: relative;
+  top: 4px;
 }
 
-input[type="radio"] {
-  margin-right: -10px;
-}
+// input[type="radio"] {
+//   margin-right: -10px;
+// }
 
 .above-nav {
   a {
