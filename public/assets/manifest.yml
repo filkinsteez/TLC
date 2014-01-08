@@ -133,6 +133,10 @@ orthophos.jpg: orthophos-22c693dc20025e78c88c98f9d8131b1c.jpg
 orthophos/index.jpg: orthophos-22c693dc20025e78c88c98f9d8131b1c.jpg
 palate.jpg: palate-21dbdbef50011cbe3829593052c47355.jpg
 palate/index.jpg: palate-21dbdbef50011cbe3829593052c47355.jpg
+paperandfeather.jpg: paperandfeather-816f83401bd82b828ee90058a48de263.jpg
+paperandfeather/index.jpg: paperandfeather-816f83401bd82b828ee90058a48de263.jpg
+paperandfeather.png: paperandfeather-53bae8e32f1bcf2a900d6243f759f1e6.png
+paperandfeather/index.png: paperandfeather-53bae8e32f1bcf2a900d6243f759f1e6.png
 paymentoptions.jpg: paymentoptions-ce615af6e65c9b9c4a802e82a62bc73d.jpg
 paymentoptions/index.jpg: paymentoptions-ce615af6e65c9b9c4a802e82a62bc73d.jpg
 pocketwatch.jpg: pocketwatch-8f32931f551e8865ecff0ddd91c2ae3c.jpg
@@ -143,6 +147,8 @@ preventionshield.jpg: preventionshield-93a0e36eb8b99317342153d41d4f69d3.jpg
 preventionshield/index.jpg: preventionshield-93a0e36eb8b99317342153d41d4f69d3.jpg
 preventivedentistry_banner.jpg: preventivedentistry_banner-f66c13e04fa67be32f4fd338aa5986e3.jpg
 preventivedentistry_banner/index.jpg: preventivedentistry_banner-f66c13e04fa67be32f4fd338aa5986e3.jpg
+quill.png: quill-1a9522775963b64201bd9b7079346d6d.png
+quill/index.png: quill-1a9522775963b64201bd9b7079346d6d.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 recaretooth.jpg: recaretooth-7f39490a32a2ead594948e5d30bd1f1f.jpg
@@ -155,6 +161,8 @@ rotadentbristle.jpg: rotadentbristle-f9468302325add7424618f85a8d87094.jpg
 rotadentbristle/index.jpg: rotadentbristle-f9468302325add7424618f85a8d87094.jpg
 rotadentinfo.jpg: rotadentinfo-dedde922012b78ae2a4c3a040743daff.jpg
 rotadentinfo/index.jpg: rotadentinfo-dedde922012b78ae2a4c3a040743daff.jpg
+scroll.jpg: scroll-e0c26fb5247b913f26cb12dfc31c787a.jpg
+scroll/index.jpg: scroll-e0c26fb5247b913f26cb12dfc31c787a.jpg
 sealants.jpg: sealants-ebfd27b4b2540b084925f9659229ecc4.jpg
 sealants/index.jpg: sealants-ebfd27b4b2540b084925f9659229ecc4.jpg
 seasons.jpg: seasons-91708b3dbe0c2d8bb710a5aecac5aad0.jpg
@@ -225,8 +233,8 @@ xray.jpg: xray-99fcee9bd12227b1d1b67269f9fdad41.jpg
 xray/index.jpg: xray-99fcee9bd12227b1d1b67269f9fdad41.jpg
 application.js: application-ae2068903e5699dd3c631a812607ab93.js
 application/index.js: application-ae2068903e5699dd3c631a812607ab93.js
-application.css: application-419688e03df727476c74bb8b016d1bc5.css
-application/index.css: application-419688e03df727476c74bb8b016d1bc5.css
+application.css: application-7068b9e42b26b4fd50d95ad2e52a1af6.css
+application/index.css: application-7068b9e42b26b4fd50d95ad2e52a1af6.css
 fontawesome-webfont.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
 fontawesome-webfont/index.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
 fontawesome-webfont.svg: fontawesome-webfont-f1c2889911d212e1403b68eabc1a3a56.svg
