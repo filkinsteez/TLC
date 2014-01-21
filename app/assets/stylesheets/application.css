@@ -12,6 +12,9 @@
  *= require_tree .
  */
 @media(max-width: 979px){
+	.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a:hover {
+		display: none !important;
+	}
 	.dropdown-menu {
 		display: none;
 	}
