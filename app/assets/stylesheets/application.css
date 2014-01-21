@@ -12,10 +12,10 @@
  *= require_tree .
  */
 @media(max-width: 979px){
-/*	.dropdown-menu {
+	.dropdown-menu li {
 		display: none !important;
 	}
-*/
+
 	.dropdown-submenu>a:after{
 		border-left-color: transparent !important;
 	}
