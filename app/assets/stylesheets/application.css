@@ -12,8 +12,8 @@
  *= require_tree .
  */
 @media(max-width: 979px){
-	.dropdown-menu li {
-		display: none !important;
+	.dropdown-menu > li {
+		display: none;
 	}
 
 	.dropdown-submenu>a:after{
