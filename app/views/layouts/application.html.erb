@@ -70,8 +70,8 @@ our family of staff and patients.</div>
 		      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Treatments <b class="caret"></b></a>
 		      <ul class="dropdown-menu" id="menu1">
 		        <li class="dropdown-submenu">
-		          <a href="#">Dreamsmile Solutions</a>
-		          <ul class="dropdown-menu">
+		          <%= link_to "Dreamsmile Solutions", dreamsmiles_path %><!-- <a href="#">Dreamsmile Solutions</a> -->
+		          <ul class="dropdown-menu mobilenav">
 		          	<li><%= link_to "Intro", dreamsmiles_path %></li>
 		            <li><%= link_to "Bonding", dreamsmiles_bonding_path %></li>
 		            <li><%= link_to "Bridges", dreamsmiles_bridges_path %></li>
@@ -88,7 +88,7 @@ our family of staff and patients.</div>
 		        </li>
 		        <li class="dropdown-submenu">
 		          <%= link_to "Common Dental Problems", commondentalproblems_path %>
-		          <ul class="dropdown-menu">
+		          <ul class="dropdown-menu mobilenav">
 		          	<li><%= link_to "Intro", commondentalproblems_path %></li>
 		            <li><%= link_to "Abscessed Tooth or Gum", commondentalproblems_abscessedtooth_path %></li>
 		            <li><%= link_to "Bad Breath", commondentalproblems_badbreath_path %></li>
@@ -118,7 +118,7 @@ our family of staff and patients.</div>
 		        </li>
 		        <li class="dropdown-submenu">
 		          <%= link_to "Preventive Dentistry", preventivedentistry_path %>
-		          <ul class="dropdown-menu">
+		          <ul class="dropdown-menu mobilenav">
 		          	<li><%= link_to "Intro", preventivedentistry_path %></li>
 		            <li><%= link_to "Oral Cancer Screening", preventivedentistry_oralcancerscreening_path %></li>
 		            <li><%= link_to "Professional Dental Cleaning", preventivedentistry_preventivedentalcleaning_path %></li>

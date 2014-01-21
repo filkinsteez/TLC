@@ -12,8 +12,17 @@
  *= require_tree .
  */
 @media(max-width: 979px){
-	.dropdown-menu > li {
-		display: none;
+	.mobilenav {
+		display: none !important;
+	}
+
+	.dropdown-menu {
+		background-color: #e2e2e2 !important;
+	}
+
+	.dropdown-menu li > a {
+		font-size: 12px !important;
+		color: #282828 !important;
 	}
 
 	.dropdown-submenu>a:after{
