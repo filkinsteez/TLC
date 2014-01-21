@@ -11,8 +11,15 @@
  *= require_self
  *= require_tree .
  */
+@media(min-width: 979px){
+	.dropdown-menu {
+		display: none;
+	}
 
- 
+	.dropdown-submenu>a:after{
+		border-left-color: transparent !important;
+	}
+}
 .above-nav {
 	font-family: Cambria, Georgia, serif;
 	text-align: center;
