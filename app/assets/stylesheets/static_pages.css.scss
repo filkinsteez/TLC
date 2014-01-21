@@ -114,15 +114,50 @@ label {
   height: 53px;
   position:relative;
   bottom: 10px;
+  float: right;
+  margin-right: 135px;
     h6 {
+      position: relative;
+      top: 2px;
       font-size: 12px;
       margin-bottom: -5px;
       color: #0f53a5;
-      line-height: 15px;
+      line-height: 9px;
     }
     img {
       margin-top: 9px;
     }
+}
+
+.dreamsmiles-btn {
+  float: left;
+  margin-left: 35px;
+}
+
+@media(max-width:1199px) {
+  .socialmedia {
+    margin-right: 20px;
+  }
+
+  .dreamsmiles-btn {
+    margin-left: -55px;
+  }
+}
+
+@media(max-width:979px) {
+  .socialmedia {
+    margin-right: 7px;
+  }
+}
+
+@media(max-width:767px) {
+  .socialmedia {
+    margin-right: 7px;
+  }
+
+  .dreamsmiles-btn {
+    margin-left: 10px;
+  }
 }
 
 .welcome-text {
