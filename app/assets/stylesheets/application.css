@@ -11,7 +11,7 @@
  *= require_self
  *= require_tree .
  */
-@media(min-width: 979px){
+@media(max-width: 979px){
 	.dropdown-menu {
 		display: none;
 	}
