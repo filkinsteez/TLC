@@ -11,6 +11,7 @@
  *= require_self
  *= require_tree .
  */
+
 @media(max-width: 979px){
 	.mobilenav {
 		display: none !important;
