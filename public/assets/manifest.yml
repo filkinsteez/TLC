@@ -13,6 +13,8 @@ amenities_banner.jpg: amenities_banner-69da3cce80d39cfb7179830bbaa4a41b.jpg
 amenities_banner/index.jpg: amenities_banner-69da3cce80d39cfb7179830bbaa4a41b.jpg
 beach.jpg: beach-28bb5a399eaffe0aff39f2aab7ac3a57.jpg
 beach/index.jpg: beach-28bb5a399eaffe0aff39f2aab7ac3a57.jpg
+blog_banner.jpg: blog_banner-b71b9e0e68dc32aca035bf7918ded76d.jpg
+blog_banner/index.jpg: blog_banner-b71b9e0e68dc32aca035bf7918ded76d.jpg
 bonding.jpg: bonding-012ed18c5a34bcd0575829ae01b2c89b.jpg
 bonding/index.jpg: bonding-012ed18c5a34bcd0575829ae01b2c89b.jpg
 bonding_banner.jpg: bonding_banner-16de10efefb96941615dc7b26b4b9e65.jpg
@@ -31,10 +33,14 @@ cleaning_banner.jpg: cleaning_banner-56af4f82bdf93609489dcde1b227d408.jpg
 cleaning_banner/index.jpg: cleaning_banner-56af4f82bdf93609489dcde1b227d408.jpg
 clearguard.jpg: clearguard-1d720086462db7674ed4a03229e5e018.jpg
 clearguard/index.jpg: clearguard-1d720086462db7674ed4a03229e5e018.jpg
+coffeecup.jpg: coffeecup-3f6d4d1ce27b751593ca4b4e6716ee0c.jpg
+coffeecup/index.jpg: coffeecup-3f6d4d1ce27b751593ca4b4e6716ee0c.jpg
 comfortingamenities.jpg: comfortingamenities-c339d9cdefe5cceded28841975bf5cfa.jpg
 comfortingamenities/index.jpg: comfortingamenities-c339d9cdefe5cceded28841975bf5cfa.jpg
 commondentalproblems_banner.jpg: commondentalproblems_banner-198eba41f5cd258612432ff1aea9f7d7.jpg
 commondentalproblems_banner/index.jpg: commondentalproblems_banner-198eba41f5cd258612432ff1aea9f7d7.jpg
+congrats.jpg: congrats-ba828dd3fe7940f235d61c02b6b46fed.jpg
+congrats/index.jpg: congrats-ba828dd3fe7940f235d61c02b6b46fed.jpg
 contact_banner.jpg: contact_banner-f4cba25e918db7089befd417d4fea076.jpg
 contact_banner/index.jpg: contact_banner-f4cba25e918db7089befd417d4fea076.jpg
 contouring.jpg: contouring-69937d04dcdad23689415f12fcb89f8e.jpg
@@ -95,6 +101,8 @@ healthyeating.jpg: healthyeating-495f0185e5facf191494a64d4de4c324.jpg
 healthyeating/index.jpg: healthyeating-495f0185e5facf191494a64d4de4c324.jpg
 home_banner.jpg: home_banner-60e6862652ee9d84e6b00a9db24b441d.jpg
 home_banner/index.jpg: home_banner-60e6862652ee9d84e6b00a9db24b441d.jpg
+homepage-lion.jpg: homepage-lion-d2543a7d39b04292ed4c178fb3bec0cd.jpg
+homepage-lion/index.jpg: homepage-lion-d2543a7d39b04292ed4c178fb3bec0cd.jpg
 homepage-signature.jpg: homepage-signature-43243725b6c81f0db262122cf3ec8b1e.jpg
 homepage-signature/index.jpg: homepage-signature-43243725b6c81f0db262122cf3ec8b1e.jpg
 implant.jpg: implant-f4ccaa066199262b371b5360d7e443e8.jpg
@@ -209,6 +217,8 @@ toothfairy.jpg: toothfairy-0b0928bd922a61a6358a20379f462e70.jpg
 toothfairy/index.jpg: toothfairy-0b0928bd922a61a6358a20379f462e70.jpg
 traci.jpg: traci-d8813e9cdbe2979647adf6e60cb17f6c.jpg
 traci/index.jpg: traci-d8813e9cdbe2979647adf6e60cb17f6c.jpg
+trophy.jpg: trophy-d21f11a369fc850c08c739ec68227171.jpg
+trophy/index.jpg: trophy-d21f11a369fc850c08c739ec68227171.jpg
 tv.jpg: tv-77c419ad35ed95196ca4204e4fe16ffc.jpg
 tv/index.jpg: tv-77c419ad35ed95196ca4204e4fe16ffc.jpg
 twitter.jpg: twitter-15867cdb2c9ada82aa56579bbdc3f8b2.jpg
@@ -231,10 +241,10 @@ wisdomtooth_staff.jpg: wisdomtooth_staff-2d2b6b250f22a28917156268f545adf7.jpg
 wisdomtooth_staff/index.jpg: wisdomtooth_staff-2d2b6b250f22a28917156268f545adf7.jpg
 xray.jpg: xray-99fcee9bd12227b1d1b67269f9fdad41.jpg
 xray/index.jpg: xray-99fcee9bd12227b1d1b67269f9fdad41.jpg
-application.js: application-ae2068903e5699dd3c631a812607ab93.js
-application/index.js: application-ae2068903e5699dd3c631a812607ab93.js
-application.css: application-9b87e0c80c337efd1053d3c0f3f53fb4.css
-application/index.css: application-9b87e0c80c337efd1053d3c0f3f53fb4.css
+application.js: application-e1fa10f42705861ce5538d86f1632da0.js
+application/index.js: application-e1fa10f42705861ce5538d86f1632da0.js
+application.css: application-964021a03bfe92b09e600bbb99db5183.css
+application/index.css: application-964021a03bfe92b09e600bbb99db5183.css
 fontawesome-webfont.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
 fontawesome-webfont/index.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
 fontawesome-webfont.svg: fontawesome-webfont-f1c2889911d212e1403b68eabc1a3a56.svg

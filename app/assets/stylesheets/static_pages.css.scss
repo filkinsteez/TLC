@@ -178,8 +178,17 @@ label {
     p {
       line-height: 2em;
       font-size: 1.2em;
-      margin-left: 34%;
+      margin-left: 17%;
     }
+}
+
+.homepage-lion {
+  margin-top: -35px;
+  margin-left: 20px;
+}
+
+.trophy {
+  margin-top: -15px;
 }
 
 .pagetitle {
@@ -373,6 +382,52 @@ label {
     }
 }
 
+.blog-container {
+  color: #2a66af;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  padding: 50px;
+  padding-top: 25px;
+  margin-top: 55px;
+  margin-bottom: -5px;
+  position: relative;
+  overflow: hidden;
+  text-align: justify;
+    img.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      font-family: Cambria, Georgia, serif;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    h4 {
+      text-align: center;
+    }
+
+    li {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    h6 {
+      margin-bottom: 1px;
+    }
+
+    a {
+      color: #2a66af;
+      text-decoration: underline;
+    }
+}
+
+.coffeecup {
+  margin-top: -25px;
+}
+
 #rothenburg {
   margin-top: 80px;
 }
@@ -476,12 +531,20 @@ table.gadget {
 @media (max-width: 1199px) {
   #left-welcome {
     p {
-      margin-left: 31%;
+      margin-left: 9%;
     }
   }
 
   h4 {
     font-size: 14.5px;
+  }
+
+  .homepage-lion {
+    margin-left: -30px;
+  }
+
+  .trophy {
+    margin-left: 30px;
   }
 
   .toothfairy {
@@ -492,7 +555,7 @@ table.gadget {
 @media (max-width: 979px) {
   #left-welcome {
     p {
-      margin-left: 24%;
+      margin-left: 6%;
     }
   }
 
