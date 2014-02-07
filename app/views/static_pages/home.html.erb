@@ -9,7 +9,7 @@
 <div id="left-welcome">
 	<div class="row-fluid">
 		<div class="span2 offset1">
-			<%= image_tag "homepage-lion.jpg", :class => "homepage-lion" %>
+			<a href="<%= newpatients_path %>/#cowardlion"><img src="<%= asset_path 'homepage-lion.jpg' %>" class="homepage-lion" /></a>
 		</div>
 		<div class="span6">
 			<i><p>
@@ -22,7 +22,7 @@
 			</p></i>
 		</div>
 		<div class="span3">
-			<%= image_tag "trophy.jpg", :class => "trophy" %>
+			<a href="<%= blog_path %>/#trophy"><img src="<%= asset_path 'trophy.jpg' %>" class="trophy" id="trophy" /></a>
 		</div>
 	</div>
 </div>
