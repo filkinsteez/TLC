@@ -24,8 +24,8 @@ gem 'jquery_datepicker'
 gem 'client_side_validations'
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'jquery-rails' 
 gem "twitter-bootstrap-rails"
-gem 'jquery-rails'
 gem "nifty-generators", :group => :development
 gem 'meta-tags', :require => 'meta_tags'
 gem 'rails_serve_static_assets'
