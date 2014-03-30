@@ -142,7 +142,11 @@ label {
 .socialmedia-more {
   display: none;
   position: relative;
-  top: 15px;
+  top: 25px;
+}
+
+#more {
+  cursor: pointer;
 }
 
 .redlink {
@@ -212,13 +216,13 @@ label {
 
 .pagetitle {
   color: #2a66af;
+  display: block;
   font-family: Cambria, Georgia, serif;
   font-size: 2.3em;
   text-align: center;
   font-style: italic;
-  display: block;
+  line-height: 40px;
   margin-top: 20px;
-  display: block;
   position: relative;
   text-decoration: underline !important;
 }
@@ -692,5 +696,10 @@ table.gadget {
 @media (max-width: 320px) {
   .content-container {
     padding: 20px;
+  }
+
+  .contact-container {
+    padding: 10px;
+    border: none;
   }
 }
