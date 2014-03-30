@@ -7,6 +7,14 @@ gem 'rails', '3.2.13'
 
 gem 'pg'
 
+gem 'jquery_datepicker'
+gem 'client_side_validations'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "nifty-generators", :group => :development
+gem 'meta-tags', :require => 'meta_tags'
+gem 'rails_serve_static_assets'
+gem 'jquery-rails' 
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -21,14 +29,6 @@ group :assets do
   gem "twitter-bootstrap-rails"
 end
 
-gem 'jquery_datepicker'
-gem 'client_side_validations'
-gem "therubyracer"
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem "nifty-generators", :group => :development
-gem 'meta-tags', :require => 'meta_tags'
-gem 'rails_serve_static_assets'
-gem 'jquery-rails' 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
