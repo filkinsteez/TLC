@@ -12,6 +12,10 @@
  *= require_tree .
  */
 
+ .dropdown-backdrop{
+    position: static;
+}
+
 @media(max-width: 979px){
 	.mobilenav {
 		display: none !important;
