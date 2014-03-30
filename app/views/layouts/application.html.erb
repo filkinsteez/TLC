@@ -46,109 +46,42 @@
 			<%= image_tag(banner_helper) %>
 		</div>
 	</div>
-<div class="navbar">
-  <div class="navbar-inner">
-    <div class="container-fluid">
- 
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
- 
-      <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-		  <ul class="nav">
-            <li><%= link_to "Home", home_path %></li>
-            <li><%= link_to "Staff", staff_path %></li>
-            <li class="dropdown">
-              <a data-toggle="dropdown" class="dropdown-toggle" href="#">Office <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><%= link_to "Toothbrush Mailbox", office_toothbrushmailbox_path %></li>
-                <li><%= link_to "Amenities", office_amenities_path %></li>
-				<li><%= link_to "Advanced Technology", office_advancedtechnology_path %></li> 
-				<li><%= link_to "Green Dentistry", office_greendentistry_path %></li> 
-              </ul>
-            <li><%= link_to "Gentle Dentistry", gentledentistry_path %></li>	
-		    <li class="dropdown">
-		      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Treatments <b class="caret"></b></a>
-		      <ul class="dropdown-menu" id="menu1">
-		        <li class="dropdown-submenu">
-		          <%= link_to "Dreamsmile Solutions", dreamsmiles_path %><!-- <a href="#">Dreamsmile Solutions</a> -->
-		          <ul class="dropdown-menu mobilenav">
-		          	<li><%= link_to "Intro", dreamsmiles_path %></li>
-		            <li><%= link_to "Bonding", dreamsmiles_bonding_path %></li>
-		            <li><%= link_to "Bridges", dreamsmiles_bridges_path %></li>
-		            <li><%= link_to "Cleaning", dreamsmiles_cleaning_path %></li>
-		            <li><%= link_to "Contouring", dreamsmiles_contouring_path %></li>
-		            <li><%= link_to "Crowns", dreamsmiles_crowns_path %></li>
-		            <li><%= link_to "Dentures", dreamsmiles_dentures_path %></li>
-		            <li><%= link_to "Fillings", dreamsmiles_fillings_path %></li>
-		            <li><%= link_to "Implants", dreamsmiles_implants_path %></li>	
-		            <li><%= link_to "Snap-On-Smile", dreamsmiles_snaponsmile_path %></li>
-		            <li><%= link_to "Veneers", dreamsmiles_veneers_path %></li>
-		            <li><%= link_to "Whitening", dreamsmiles_whitening_path %></li>		
-		          </ul>
-		        </li>
-		        <li class="dropdown-submenu">
-		          <%= link_to "Common Dental Problems", commondentalproblems_path %>
-		          <ul class="dropdown-menu mobilenav">
-		          	<li><%= link_to "Intro", commondentalproblems_path %></li>
-		            <li><%= link_to "Abscessed Tooth or Gum", commondentalproblems_abscessedtooth_path %></li>
-		            <li><%= link_to "Bad Breath", commondentalproblems_badbreath_path %></li>
-		            <li><%= link_to "Broken or Ill Fitting Dentures", commondentalproblems_brokendentures_path %></li>
-		            <li><%= link_to "Burning Mouth Syndrome", commondentalproblems_burningmouth_path %></li>
-		            <li><%= link_to "Canker Sores", commondentalproblems_cankersores_path %></li>
-		            <li><%= link_to "Cold Sores", commondentalproblems_coldsores_path %></li>
-		            <li><%= link_to "Cracked or Lost Filling", commondentalproblems_crackedfilling_path %></li>
-		            <li><%= link_to "Dislodged, Lost, or Significantly Chipped Crown", commondentalproblems_chippedcrown_path %></li>	
-		            <li><%= link_to "Dry Mouth", commondentalproblems_drymouth_path %></li>
-		            <li><%= link_to "Fractured or Broken Tooth", commondentalproblems_brokentooth_path %></li>
-		            <li><%= link_to "Grimy, Sticky Teeth", commondentalproblems_stickyteeth_path %></li>
-		            <li><%= link_to "Headache", commondentalproblems_headache_path %></li>
-		            <li><%= link_to "Loose or Lost Tooth", commondentalproblems_losttooth_path %></li>
-		            <li><%= link_to "Root Canal", commondentalproblems_rootcanal_path %></li>
-		            <li><%= link_to "Sleep Apnea", commondentalproblems_sleepapnea_path %></li>
-		            <li><%= link_to "Snoring", commondentalproblems_snoring_path %></li>
-		            <li><%= link_to "Swollen, Tender, Bleeding Gums", commondentalproblems_bleedinggums_path %></li>
-		            <li><%= link_to "Teeth Grinding", commondentalproblems_teethgrinding_path %></li>
-		            <li><%= link_to "TMD or TMJ", commondentalproblems_TMD_path %></li>	
-		            <li><%= link_to "Toothache", commondentalproblems_toothache_path %></li>
-		            <li><%= link_to "Tooth Cavity", commondentalproblems_toothcavity_path %></li>
-		            <li><%= link_to "Tooth Extraction", commondentalproblems_toothextraction_path %></li>
-		            <li><%= link_to "Tooth Sensitivity", commondentalproblems_toothsensitivity_path %></li>
-		            <li><%= link_to "Wisdom Teeth", commondentalproblems_wisdomteeth_path %></li>         
-		          </ul>
-		        </li>
-		        <li class="dropdown-submenu">
-		          <%= link_to "Preventive Dentistry", preventivedentistry_path %>
-		          <ul class="dropdown-menu mobilenav">
-		          	<li><%= link_to "Intro", preventivedentistry_path %></li>
-		            <li><%= link_to "Oral Cancer Screening", preventivedentistry_oralcancerscreening_path %></li>
-		            <li><%= link_to "Professional Dental Cleaning", preventivedentistry_preventivedentalcleaning_path %></li>
-		            <li><%= link_to "Sealants", preventivedentistry_sealants_path %></li>
-		            <li><%= link_to "Athletic Mouthguards", preventivedentistry_athleticmouthguards_path %></li>
-		            <li><%= link_to "Dream Smile Diet", preventivedentistry_dreamsmilediet_path %></li>
-		            <li><%= link_to "Fluoride Treatments", preventivedentistry_flouridetreatment_path %></li>
-		            <li><%= link_to "Oral Hygiene", preventivedentistry_oralhygiene_path %></li>	
-		            <li><%= link_to "Rotadent Toothbrush", preventivedentistry_rotadent_path %></li>
-		            <li><%= link_to "Soft Tissue Management", preventivedentistry_softtissue_path %></li>
-		            <li><%= link_to "Tobacco Cessation Program", preventivedentistry_tobaccocessationprogram_path %></li>      
-		          </ul>	
-		        </li>     
-		        <li><%= link_to "Nexus of Dental & General Health", treatments_dentalnexus_path %></li>
-		      </ul>
-		    </li>
-		    <li><%= link_to "Testimonials", testimonials_path %></li>
-		    <li><%= link_to "Blog", blog_path %></li>        
-            <li><%= link_to "New Patients", newpatients_path %></li>
-            <li><%= link_to "Contact Us", contact_path %></li>
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                   <li><%= link_to "Sealants", preventivedentistry_sealants_path %></li>
+                   <li><%= link_to "Sealants", preventivedentistry_sealants_path %></li>
+                   <li><%= link_to "Sealants", preventivedentistry_sealants_path %></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
       </div>
- 
     </div>
-  </div>
-</div>	
 <div class="row-fluid" style="text-align:center;">
 	<div class="span11 offset1">
 		<%= link_to image_tag( 'dreamsmiles-btn.png'), 'dreamsmiles', :class => "dreamsmiles-btn" %>
