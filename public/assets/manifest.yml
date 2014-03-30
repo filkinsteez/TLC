@@ -1,4 +1,6 @@
 ---
+4square.png: 4square-e8b16a60a5cab36c1529fb2ff039f2f4.png
+4square/index.png: 4square-e8b16a60a5cab36c1529fb2ff039f2f4.png
 STM_tooth.jpg: STM_tooth-6517d6379dc997b6b2bf9bb9ef548c64.jpg
 STM_tooth/index.jpg: STM_tooth-6517d6379dc997b6b2bf9bb9ef548c64.jpg
 TLC_logo.jpg: TLC_logo-d8a57b0d27d5e642ca3d41b5d0311482.jpg
@@ -79,6 +81,8 @@ environmentchallenge.jpg: environmentchallenge-b2ada5e02d35984655f131c98d9febe3.
 environmentchallenge/index.jpg: environmentchallenge-b2ada5e02d35984655f131c98d9febe3.jpg
 facebook.jpg: facebook-26b5efe2f9d7c956e99faebbec1ad21b.jpg
 facebook/index.jpg: facebook-26b5efe2f9d7c956e99faebbec1ad21b.jpg
+facebook.png: facebook-f75e9603cd9c18bfcd89177da87cc161.png
+facebook/index.png: facebook-f75e9603cd9c18bfcd89177da87cc161.png
 filling.jpg: filling-b8b38fb3a32085147dea5fe4733ff8e3.jpg
 filling/index.jpg: filling-b8b38fb3a32085147dea5fe4733ff8e3.jpg
 filling_banner.jpg: filling_banner-8e92b32eae31b6019a21adb41fdc4249.jpg
@@ -89,10 +93,14 @@ flouridetooth.jpg: flouridetooth-7cb2140433927875c4b04687bbf85f8f.jpg
 flouridetooth/index.jpg: flouridetooth-7cb2140433927875c4b04687bbf85f8f.jpg
 flowers.jpg: flowers-ac5f6d66400bd52b395c77ca6d9e4ff7.jpg
 flowers/index.jpg: flowers-ac5f6d66400bd52b395c77ca6d9e4ff7.jpg
+foursquare.png: foursquare-3b12eb293192125dcb017bd583ca1fcc.png
+foursquare/index.png: foursquare-3b12eb293192125dcb017bd583ca1fcc.png
 gentle_flossy.jpg: gentle_flossy-0e167a30f6964460ee908865476ef466.jpg
 gentle_flossy/index.jpg: gentle_flossy-0e167a30f6964460ee908865476ef466.jpg
 gentledentistry_banner.jpg: gentledentistry_banner-2df014e06151eb0a2f2f56e9ba84b83c.jpg
 gentledentistry_banner/index.jpg: gentledentistry_banner-2df014e06151eb0a2f2f56e9ba84b83c.jpg
+googleplus.png: googleplus-72475bd0a386dfcee7a685d3f7ed957e.png
+googleplus/index.png: googleplus-72475bd0a386dfcee7a685d3f7ed957e.png
 greenTLC.jpg: greenTLC-131eb4f71423a72977cc10ba4cecba0a.jpg
 greenTLC/index.jpg: greenTLC-131eb4f71423a72977cc10ba4cecba0a.jpg
 greendental_banner.jpg: greendental_banner-8aced2a113b267003a1543abede13dcd.jpg
@@ -121,6 +129,8 @@ kay.jpg: kay-1e3e41c5dba82b0cb1184482e279280e.jpg
 kay/index.jpg: kay-1e3e41c5dba82b0cb1184482e279280e.jpg
 leftmouthguard.jpg: leftmouthguard-e837ff67055c5b3a26f09c760e6fda04.jpg
 leftmouthguard/index.jpg: leftmouthguard-e837ff67055c5b3a26f09c760e6fda04.jpg
+linkedin.png: linkedin-ab4cebb441e700af2b89c17e2116ee2f.png
+linkedin/index.png: linkedin-ab4cebb441e700af2b89c17e2116ee2f.png
 louise.jpg: louise-f21af63090eec7b0189b7b437a2f2266.jpg
 louise/index.jpg: louise-f21af63090eec7b0189b7b437a2f2266.jpg
 marsha.jpg: marsha-754838bc47ded9a1fbfeb4dfbaf70b26.jpg
@@ -129,6 +139,8 @@ mightymolar.jpg: mightymolar-37c9b54f7eb3c61582e3a721f057c30c.jpg
 mightymolar/index.jpg: mightymolar-37c9b54f7eb3c61582e3a721f057c30c.jpg
 mouthwash.jpg: mouthwash-eadeb0e5b4d277b34e121a2e831d73d0.jpg
 mouthwash/index.jpg: mouthwash-eadeb0e5b4d277b34e121a2e831d73d0.jpg
+myspace.png: myspace-518c72a3352f26fed4547e7f398fecb0.png
+myspace/index.png: myspace-518c72a3352f26fed4547e7f398fecb0.png
 newpatients_banner.jpg: newpatients_banner-d9165a251af64450833af7d956fdda0c.jpg
 newpatients_banner/index.jpg: newpatients_banner-d9165a251af64450833af7d956fdda0c.jpg
 nexus_banner.jpg: nexus_banner-c68828fcc14e7404358166352cabfd11.jpg
@@ -151,6 +163,8 @@ paymentoptions.jpg: paymentoptions-ce615af6e65c9b9c4a802e82a62bc73d.jpg
 paymentoptions/index.jpg: paymentoptions-ce615af6e65c9b9c4a802e82a62bc73d.jpg
 piggybank.png: piggybank-17de7a428799e814634631a156a3fb5a.png
 piggybank/index.png: piggybank-17de7a428799e814634631a156a3fb5a.png
+pinterest.png: pinterest-04dfa6656cadfa26f57f0d97aaa0d770.png
+pinterest/index.png: pinterest-04dfa6656cadfa26f57f0d97aaa0d770.png
 pocketwatch.jpg: pocketwatch-8f32931f551e8865ecff0ddd91c2ae3c.jpg
 pocketwatch/index.jpg: pocketwatch-8f32931f551e8865ecff0ddd91c2ae3c.jpg
 poluswhitener.jpg: poluswhitener-1668167635cabccf5b64e6b85b392328.jpg
@@ -199,10 +213,10 @@ snaponsmile.jpg: snaponsmile-7b4a81fa0a144012874b503906742586.jpg
 snaponsmile/index.jpg: snaponsmile-7b4a81fa0a144012874b503906742586.jpg
 snaponsmile_banner.jpg: snaponsmile_banner-af54e6b48f9d9251f62694ae3b020681.jpg
 snaponsmile_banner/index.jpg: snaponsmile_banner-af54e6b48f9d9251f62694ae3b020681.jpg
-socialmedia-btn.png: socialmedia-btn-f82146a563ad9f3e2300c96e7ae37205.png
-socialmedia-btn/index.png: socialmedia-btn-f82146a563ad9f3e2300c96e7ae37205.png
-staff_banner.jpg: staff_banner-2ac697f855bf0449f1eb59a27945f48b.jpg
-staff_banner/index.jpg: staff_banner-2ac697f855bf0449f1eb59a27945f48b.jpg
+socialmedia-btn.png: socialmedia-btn-e27a1383cdef1cef1f99c4baeb926cab.png
+socialmedia-btn/index.png: socialmedia-btn-e27a1383cdef1cef1f99c4baeb926cab.png
+staff_banner.jpg: staff_banner-8b42e9313311d6dc9d5e6b017e6ad83a.jpg
+staff_banner/index.jpg: staff_banner-8b42e9313311d6dc9d5e6b017e6ad83a.jpg
 tbm_banner.jpg: tbm_banner-5389bdbaac50d2c189f5b69c308c47c9.jpg
 tbm_banner/index.jpg: tbm_banner-5389bdbaac50d2c189f5b69c308c47c9.jpg
 tbm_beacon.jpg: tbm_beacon-7238cdf2ca753cc25f2cde9ac78d02d7.jpg
@@ -223,10 +237,14 @@ traci.jpg: traci-d8813e9cdbe2979647adf6e60cb17f6c.jpg
 traci/index.jpg: traci-d8813e9cdbe2979647adf6e60cb17f6c.jpg
 trophy.jpg: trophy-d21f11a369fc850c08c739ec68227171.jpg
 trophy/index.jpg: trophy-d21f11a369fc850c08c739ec68227171.jpg
+tumblr.png: tumblr-1f7076478fc25f28f43043521b5f07ce.png
+tumblr/index.png: tumblr-1f7076478fc25f28f43043521b5f07ce.png
 tv.jpg: tv-77c419ad35ed95196ca4204e4fe16ffc.jpg
 tv/index.jpg: tv-77c419ad35ed95196ca4204e4fe16ffc.jpg
 twitter.jpg: twitter-15867cdb2c9ada82aa56579bbdc3f8b2.jpg
 twitter/index.jpg: twitter-15867cdb2c9ada82aa56579bbdc3f8b2.jpg
+twitter.png: twitter-082d975287d5bec7f5cd78bbc2303b91.png
+twitter/index.png: twitter-082d975287d5bec7f5cd78bbc2303b91.png
 usbcam.jpg: usbcam-1c4d84e97551d0bd63a422bbf3eef711.jpg
 usbcam/index.jpg: usbcam-1c4d84e97551d0bd63a422bbf3eef711.jpg
 veneer.jpg: veneer-17f114fe8366f6457dc1bfdd41c43676.jpg
@@ -245,10 +263,10 @@ wisdomtooth_staff.jpg: wisdomtooth_staff-2d2b6b250f22a28917156268f545adf7.jpg
 wisdomtooth_staff/index.jpg: wisdomtooth_staff-2d2b6b250f22a28917156268f545adf7.jpg
 xray.jpg: xray-99fcee9bd12227b1d1b67269f9fdad41.jpg
 xray/index.jpg: xray-99fcee9bd12227b1d1b67269f9fdad41.jpg
-application.js: application-f965d5b4dbd4af3fe6551273d77fcbe3.js
-application/index.js: application-f965d5b4dbd4af3fe6551273d77fcbe3.js
-application.css: application-58bb60439ccf39717600487997a94b7f.css
-application/index.css: application-58bb60439ccf39717600487997a94b7f.css
+application.js: application-ac5d9b7034f021610be75f66e965f209.js
+application/index.js: application-ac5d9b7034f021610be75f66e965f209.js
+application.css: application-f5419b8ce79971721e2bb837c901d564.css
+application/index.css: application-f5419b8ce79971721e2bb837c901d564.css
 fontawesome-webfont.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
 fontawesome-webfont/index.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
 fontawesome-webfont.svg: fontawesome-webfont-f1c2889911d212e1403b68eabc1a3a56.svg

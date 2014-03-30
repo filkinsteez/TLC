@@ -153,10 +153,17 @@
 	<div class="span11 offset1">
 		<%= link_to image_tag( 'dreamsmiles-btn.png'), 'dreamsmiles', :class => "dreamsmiles-btn" %>
 		<div class="socialmedia">
-			<h6>Join Us</h6>
-			<%= link_to image_tag('facebook.jpg'), 'https://www.facebook.com/pages/TLC-Dental-Group/703498763013164', :target => "_blank" %>
-			<%= image_tag('twitter.jpg') %>
-			<a href="#"><h6 style="display:inline-block; position:relative; top:7px;">More</h6></a>		
+			<%= link_to image_tag('facebook.png'), 'https://www.facebook.com/pages/TLC-Dental-Group/703498763013164', :target => "_blank" %>
+			<%= image_tag('twitter.png') %>
+			<%= image_tag('linkedin.png') %>
+			<%= image_tag('googleplus.png') %>
+			<a href="#"><h6 id="more">More</h6></a>		
+			<div class="socialmedia-more">
+				<%= link_to image_tag('foursquare.png'), 'https://www.facebook.com/pages/TLC-Dental-Group/703498763013164', :target => "_blank" %>
+				<%= image_tag('pinterest.png') %>
+				<%= image_tag('tumblr.png') %>
+				<%= image_tag('myspace.png') %>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -190,6 +197,13 @@
       $(this).siblings('.dropdown-backdrop').off().remove();
     }
   }, this), 0);
+});
+
+$("socialmedia-more").hide();
+$( "#more" ).click(function() {
+  $( ".socialmedia-more" ).slideToggle( "fast", function() {
+    // Animation complete.
+  });
 });
 
 </script>
